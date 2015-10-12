@@ -1,0 +1,109 @@
+.article{
+	font-family: 微软雅黑;
+}       
+.article_1{
+	color: #9900CC;
+	font-weight: bold;
+	font-size: 22px;
+}
+.article_2{
+	color: #FE5187;
+	font-weight: bold;
+	font-size: 22px;
+}
+.article_3{
+	float: right;
+}
+.article_3 a{
+	text-decoration: none;
+	color: #312424;
+	position: relative;
+	top: 40px;
+}
+.article_3 a:hover{
+	text-decoration: underline;
+	color: #FE5187;
+}
+/*website页面中的“首页>>网站模板样式”*/
+.article1{
+	font-size: 22px;
+	color: #0066FF;
+	font-weight: bold;
+}
+.article2{
+	font-size: 22px;
+	color: #9900CC;
+	font-weight: bold;
+}
+.article3{
+	font-size: 22px;
+	color: #FF3366;
+	font-weight: bold;
+}
+.line{
+	background-image: url(../imgs/s3.jpg);
+	width: 100%;
+	height: 7px;
+	margin-top: 2px;
+	margin-bottom: 20px;
+}
+.book{
+	width: 720px;
+	height: 220px;
+	border-bottom: 1px dashed #999999;
+	margin-bottom: 20px;
+}
+.book_a a{
+	text-decoration: none;
+	color: #312424;
+	font-weight: bold;
+}
+.book_a a:hover{
+	text-decoration: underline;
+	color: #FE5187;
+}
+.time{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #2B2222;
+}
+.book_img{
+	border: 1px solid #CCCCCC;
+	margin-top: 10px;
+	width: 180px;
+	height: 120px;
+	float: left;
+	position: relative;
+}
+.content{
+	margin-left: 200px;
+	margin-top: 10px;
+	font-size: 14px;
+	width: 510px;
+	color: #2B2222;
+	line-height: 22px;
+}
+.text{
+	background-color: #FD8A61;
+	width: 110px;
+	height: 45px;
+	line-height: 45px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;	
+}
+.text a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+}
+.text a:hover{	
+	background-color: #6633CC;
+	width: 110px;
+	height: 45px;
+	border-radius: 10px;
+	text-decoration: underline;
+}

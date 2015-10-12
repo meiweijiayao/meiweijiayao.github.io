@@ -1,0 +1,60 @@
+body{
+	font-family: 微软雅黑;
+}
+.arc{
+	color: #9900CC;
+	font-weight: bold;
+	font-size: 22px;
+}
+.back{
+	float: right;
+}
+.back a{
+	text-decoration: none;
+	color: #551A8B;
+	position: relative;
+	top: 10px;
+	right: 80px;
+}
+.back a:hover{
+	text-decoration: underline;
+	color: #FE5187;
+}
+table{
+	/*text-align: center;*/
+	margin-top: 50px;
+}
+.input_1{
+	outline:none;
+	height: 25px;
+	width: 500px;
+	border-radius: 5px;
+}
+.text{
+	width:500px;
+	height:300px;
+	margin-top:10px;
+	border: 1px solid #9A9A9A;
+	outline:none;
+	resize:none;
+	border-radius: 5px;
+}
+.input_2{
+	cursor: pointer;
+	outline:none;
+	width: 200px;
+	height: 42px;
+	float: left;
+	font-size: 16px;	
+	font-family: 微软雅黑;
+}
+.input_3{
+	cursor: pointer;
+	outline:none;
+	width: 60px;
+	height: 32px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+	font-family: 微软雅黑;
+}

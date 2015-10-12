@@ -1,0 +1,50 @@
+body{
+	font-family: 微软雅黑;
+	color: #1A1919;
+	font-size: 15px;
+}
+.title{	
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #0088DB;
+	font-size: 20px;
+}
+.title span{
+	float: right;
+	font-size: 18px;
+}
+.title span a{
+	text-decoration: none;
+	color: #AC5A24;
+}
+.title span a:hover{
+	text-decoration: underline;
+	color: #0088DB;
+}
+.time{
+	border-top: 1px dashed #999999;
+	border-bottom: 1px dashed #999999;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	
+}
+.time span{
+	padding-right: 50px;
+	color: #AC5A24;
+	font-size: 14px;
+}
+p{
+ 	text-indent:2em;
+ 	margin:0px;
+ 	line-height: 25px;
+ }
+ .space{
+ 	margin-top: 10px;
+ }
+.number{
+	font-size: 18px;
+	color: #FF0000;
+	font-weight: bold;	
+}

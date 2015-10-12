@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>个人博客</title>
+	<link rel="shortcut icon" href=" title.ico" /> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+    <meta name="author" content="Nathan Searles">
+     <script type="text/javascript">
+        function change(){ 
+        	var menu = document.getElementById('nav');
+        	var li = document.getElementById('li');
+        	var links = menu.getElementsByTagName('a');
+        	for (var i = 0; i < links.length; i++) {
+        		links[i].onclick = function () {
+        			for (var j = 0; j < links.length; j++) {
+        				if(links[j] == this) {
+        					this.style.background = '#F15694';
+        					this.style.display = 'block';
+        					this.style.borderRadius = '7px';
+        				} 
+        				else {
+        					links[j].style.background = '';
+        					li.style.background = '#66CCCC';
+        				}
+        			}
+        		}
+        	}
+        }
+
+
+    </script>
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div class="head"></div>
+		    <div class="word"></div>
+		</div>
+		<div id="nav">
+			<nav>
+				<ul class="navs">
+					<li id="li" class="li"><a href="html/left.html"  onclick="change()" target="left">首页</a></li>
+					<li class="li"><a href="html/website.html" onclick="change()" target="left">网站模板</a></li>
+					<li class="li"><a href="html/daily.html" onclick="change()" target="left">个人日记</a></li>
+					<li class="li"><a href="html/guestbook.html" onclick="change()"target="left">留言板</a></li>
+				</ul>  	
+			</nav>
+		</div>
+	</header>
+	<div class="main">
+		<section>
+			<div class="container">
+				<div id="slides2">
+					<img src="imgs/s_1.jpg">
+					<img src="imgs/s_2.jpg">
+				    <img src="imgs/s_3.jpg">
+				    <img src="imgs/s_4.jpg">
+				    <img src="imgs/s_5.jpg">
+				    <img src="imgs/s_6.jpg">
+				    <img src="imgs/s_7.jpg">
+			    </div>
+		    </div>
+		    <div id="picture"><img src="imgs/s2.jpg" ></div>
+		    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		    <script src="js/jquery.slides.min.js"></script>
+		    <script>
+		    $(function() {
+		    	$('#slides2').slidesjs({
+		    		width: 500,height: 400,navigation: false,start: 3,play: {auto: true}
+		    	});
+		    });
+		    </script>
+		    <div>
+		    	<iframe src="html/left.html" class="ifram" name="left" scrolling="no" norsize="norsize" vspace="0" hspace="0" framespacing="0" frameborder="0" width='100%' scrolling='no' height='1300px' ></iframe>
+		    </div>
+	    </section>
+	    <aside>
+	    	<div>
+		    	<iframe src="html/right.html" name="right" scrolling="no" norsize="norsize" framespacing="0" frameborder="0"  scrolling='no' height='1300px' ></iframe>
+		    </div>
+	    </aside>
+	</div>
+	<footer>
+		<div class="foot">Design by:美味佳瑶</div>
+	</footer>
+</body>
+</html>

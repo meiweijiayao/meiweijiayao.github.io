@@ -1,0 +1,90 @@
+aside{
+	font-family: 微软雅黑;
+	float: right;
+	margin-top: 40px;
+	margin-left: 25px;
+}
+.nav_1{	
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	text-align: center;
+}
+.nav_1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	display: block;
+}
+.nav_1 a:hover{
+	font-size: 22px;
+	width: 130px;
+	height: 50px;
+	-webkit-transform:rotate(9deg);
+}
+#nav1{
+	float: left;
+	background-color: #666666;
+}
+#nav2{
+	float: right;
+	background-color: #00CCCC;
+}
+#nav2 a:hover,#nav4 a:hover{
+	-webkit-transform:rotate(-9deg);
+}
+#nav3{
+	float: left;
+	margin-top: 20px;
+	background-color: #CC9966;
+}
+#nav4{
+	float: right;
+	margin-top: 20px;
+	background-color: #6633CC;
+}
+/*最新文章*/
+.new_article{
+	border:1px solid #CCCCCC;
+	width: 270px;
+	float: left;
+	margin-top: 20px;
+	padding:20px  0 10px  10px;
+}
+.new_article ul,.new_comment{
+	margin-top: 10px;
+	margin-right: 15px;
+	font-size: 14px;
+	border-top:1px solid #CCCCCC;		
+}
+.new_article ul li{
+	padding-top: 5px;
+	list-style-type: none;
+}
+.new_ul li{	
+	white-space: nowrap;/*不换行*/
+	overflow:hidden; /*内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;
+}
+.new_article ul li a,.new_comment a{
+	color: #444444;
+	text-decoration: none;	
+}
+.new_article ul li a:hover,.new_comment a:hover{
+	text-decoration: underline;
+	color: #FE5187;
+}
+/*留言内容*/
+.words{
+	padding-top: 15px;
+	border-bottom:1px solid #CCCCCC;
+}
+.words_b{
+	padding-top: 15px;
+}
+.comment{
+	margin-left: 43px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
