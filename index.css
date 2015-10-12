@@ -1,0 +1,42 @@
+body{
+	background: url(imgs/b3.jpg) no-repeat;
+	overflow-x: hidden; 
+<<<<<<< HEAD
+	margin:0 auto;}
+=======
+	margin:0 auto;
+	/*font-family: "微软雅黑";*/
+}
+>>>>>>> parent of 899bef0... Revert "11"
+header{
+	margin-left: 130px;
+	margin-top: 100px;
+}
+header h1{
+<<<<<<< HEAD
+	background: url(imgs/name.png) no-repeat;
+=======
+	background: url(imgs/1.png) no-repeat;
+>>>>>>> parent of 899bef0... Revert "11"
+	height: 50px;
+}
+a{
+	text-decoration: none;
+	color:#7B59BA;
+	font-size: 25px;
+	font-weight: bold;
+}
+a:hover{
+	
+}
+.center{
+	margin-left: 130px;
+	margin-top: 100px;
+}
+ul li{
+	list-style-type: none;
+	padding: 50px;
+	float: left;
+	font-family: 幼圆;
+
+}
