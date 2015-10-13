@@ -1,0 +1,30 @@
+body{
+  font-family: "微软雅黑";
+  font-size:20px;
+  margin:50px auto;
+}
+.first{
+	margin-left: 6%;
+}
+.second{
+	margin-left: 15%;
+	padding-top: 20px;
+}
+fieldset{
+	margin-top: 40px;
+	margin-left: 10%;
+	width:60%;
+	height: 70px;
+	border-radius: 10px;
+	padding-left: 30px;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color:#2C2E28;
+	padding-left: 60px;
+}
+a:hover{
+    color: #82CCD8;
+    text-decoration: underline;
+}

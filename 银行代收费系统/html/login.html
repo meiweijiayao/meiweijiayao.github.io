@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>login</title>
+	<style type="text/css">
+	*{margin:0;padding:0;}
+     body{background-image: url(../img/背景图.png);font-family:"幼圆";overflow: hidden;}
+     table{background:url(../img/登录框.png);background-repeat:no-repeat; width:700px;height:700px;margin: 90px auto;}
+     .login td{text-align: center;}
+     .login td span{padding-left: 5%;font-weight: bold;}
+     #text1{background-color: #F2F2F2;width:30%;height: 30px;border-radius: 6px;color: #B4B4B6;font-size: 15px;padding-left: 10px;margin-top:15px;}
+     .input{font-size: 25px;color: black;width:30%;height: 30px;}
+     #text2{background-color: #ECECEC;width: 10%;height:30px;border-radius: 10px;color:#5E5E5E;font-size: 15px;margin-top: 50px;font-family:"幼圆";}
+     input:focus,textarea:focus {outline: none;}
+     </style>
+     <script type="text/javascript">
+     function show(target){
+     	if(target.value=='') {
+     	target.value="Username";}
+   else if(target.value=="Username"){
+    target.value="";}
+}
+     function show1(target){
+     	if(target.value=='') {
+     	target.value="Password";}
+   else if(target.value=="Password"){
+    target.value="";}
+}
+     </script>
+</head>
+<body onmousewheel="return false;">
+	<table class="login">
+		<tr>
+			<td><span>银行代收费系统</span><br><br>
+             <span><input id="text1" type="text" name="username" value="Username" onclick="show(this)"></span><br>
+             <span><input id="text1" type="password" name="password" value="Password" onclick="show1(this)"></span><br>
+             <input id="text2" type="submit" value="登录"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="text2" type="reset" value="重置">
+			</td>
+		</tr>
+		<tr>
+	</table>
+</div>
+</body>
+</html>
