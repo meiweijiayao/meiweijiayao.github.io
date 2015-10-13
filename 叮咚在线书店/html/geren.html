@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+  <title>个人中心</title>
+  <link rel="shortcut icon" href=" ../imgs/titles.ico" /> 
+ <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/gexinxi.css">
+  <link rel="stylesheet" href="../css/main.css" media="all">
+  <script src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.tabso_yeso.js"></script>
+  <script type="text/javascript" src="../js/function.js"></script>
+</head>
+<body>
+  <header>
+	<div id="header">
+	  <div class="head">欢迎光临叮咚，
+	  <span class="head_1" ><a class="theme-login" href="#">美味佳瑶</a></span>
+		<span class="head_2"><a href="../main.html">注销</a></span> 
+		<span class="head_2"><a href="shop.html"><img src="../imgs/cart.png" style="">购物车</a></span>
+	  <span class="head_3">|</span>
+	  <span class="head_2"><a href="myorder.html">我的订单</a></span>
+	  <span class="head_3">|</span>
+	  <span class="head_2"><a href="geren.html">我的叮咚</a></span>
+	  <span class="head_3">|</span>
+	  <span class="head_2"><a href="#">客户服务</a></span>
+	  <span class="head_3">|</span> 
+	  <span class="head_1"><a class="theme-login" href="user.html">返回首页</a></span> 
+	</div>
+	<div class="logo">
+		<div>
+		  <img src="../imgs/logo_2.png" style="height:80px;float:left;">
+		  <img src="../imgs/com_3.png"style="height:70px;float:left;">
+		</div>
+		<div>
+		    <input class="search_1" type="text" value="百科全书" onfocus="if (this.value=='百科全书')this.value=''" onblur="if (this.value=='')this.value='百科全书'">
+		    <input class="search_2" type="submit" value="搜  索">
+		    <span class="search_3"><a href="#">高级搜索</a></span>
+		</div>
+		<div>
+		  <span id="search" class="search_3"><a href="#">热搜</a>：</span>
+		  <span class="search_3"><a href="#">商业冒险</a></span>
+		  <span class="search_3"><a href="#">科学全景图</a></span>
+		  <span class="search_3"><a href="#">时光之味</a></span>
+		  <span class="search_3"><a href="#">好妈妈</a></span>
+	  </div>
+	  <div id="nav">
+		<ul>
+		  <li class="nav_1"><a href="#">全部图书分类</a></li>
+		  <li><a href="#">图书排行榜</a></li>
+		  <li><a href="#">童书</a></li>
+		  <li><a href="#">小说</a></li>
+		  <li><a href="#">管理</a></li>
+		  <li><a href="#">成功励志</a></li>
+		  <li><a href="#">青春文学</a></li>
+		  <li><a href="#">历史</a></li>
+		  <li><a href="#">哲学宗教</a></li>
+		  <li><a href="#">传记</a></li>
+		</ul>
+	  </div>
+	</div>
+	<br>
+	<div class="gexin">
+		<h4>个人中心</h4><br>
+		<hr size="2" color="#FF2832">
+		<form name="biao2" method="post" action="user.html">
+		<table align="center" cellspacing="30">
+			<tr align="center">
+				<td align="right">用户名：</td>
+				<td align="left">
+					<input class="biao3" id="yhm" type="text" name="xiug1" onblur="check()" value="aaa" disabled="disabled" align="center">
+				</td>
+			</tr>
+		    <tr align="center">
+				<td align="right">性别：</td>
+				<td align="left">
+					<select name="xiugai2" class="biao3" id="xb">
+						<option value="volvo">男</option>
+						<option value="saab">女</option>
+				</td>
+		    </tr>
+		    <tr align="center">
+				<td align="right"> 手机号码：</td>
+				<td align="left">
+					<input class="biao3" id="sjhm" type="text" name="xiug3" onblur="check()" value="aaa" />
+				</td>
+		    </tr>
+		    <tr align="center">
+				<td align="right">邮箱：</td>
+				<td align="left">
+					<input class="biao3" id="yx" type="text" name="xiug4" onblur="check()" value="aaa"  >
+				</td>
+		    </tr>
+		    <tr align="center">
+				<td align="right">所在地：</td>
+				<td align="left">
+					<input class="biao3" id="szd" type="text" name="xiug5" onblur="check()" value="aaa" >
+				</td>
+		    </tr>   
+		    <tr>
+				<td align="right">
+					<input class="biao4" type="submit" value="保存" align="center" />
+				</td>
+				<td align="left">
+					<input class="biao4" type="reset" value="重置" align="center" />
+				</td>
+			</tr>
+		</table>
+		</form>
+    </div>
+ </div>
+ </header>
+</body>
+</html>	

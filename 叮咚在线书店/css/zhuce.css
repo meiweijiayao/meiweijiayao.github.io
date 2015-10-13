@@ -1,0 +1,78 @@
+body{
+  width: 100%;
+  margin:0 auto;
+  font-family: ;
+  border-radius: 5px;
+}
+#head{
+	height: 100px;
+}
+.hrs{
+	size:5px; 
+	color:#FE3217;
+}
+.tubiao img{
+	width:80px;
+	height:80px; 
+	border:0;
+}
+.zhuc{
+	font-family: 微软雅黑;
+	height: 300px;
+	width:1280px;
+	margin:150px auto;
+	text-align: center;
+}
+table tr td{
+  border:0px solid #000; 
+}
+.zhuc .zhuc-box{
+	width: 30%;
+	margin:0 auto;
+}
+.zhuc-box form,table{width: 100%;}
+.tubiao{
+	float: left;
+	width: 100%;
+	padding-top: 80px;
+}
+.yuolie{
+	float: right; 
+	display:inline;
+	width:50%;
+	height:21px;
+}
+.diyilie{
+	float:right;
+	display:inline;
+	height:21px;
+}
+.diyilie li {
+	float:left;
+	display:inline;
+	height:21px;
+}
+.diyilie li a {
+	display:inline-block;
+	padding:1px 6px 0;
+	height:19px;
+	color:#404040;
+	border:1px solid #fff;
+	border-bottom:none;
+	overflow:hidden;
+}
+.input{
+	width: 60px;
+	height: 30px;
+	background-color: #FF2B09;
+	border: none;
+	color: #FFFFFF;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.biao{ 
+	border-radius: 5px;
+	height: 25px;
+}
+.yanz{margin: 0 auto ; width: 50%}
+.shang{width: 100%;height: 150px;}

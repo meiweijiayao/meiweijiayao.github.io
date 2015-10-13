@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>购物车</title>
+  <link rel="shortcut icon" href="../imgs/titles.ico" /> 
+  <link rel="stylesheet" href="../css/style.css"/>
+  <script type="text/javascript" src="../js/script.js"></script>
+  <script type="text/javascript" src="../js/jquery.1.4.2-min.js"></script>
+</head>
+<body>
+  <header>
+	<div id="header">
+		<div class="head">欢迎光临叮咚，
+			<span class="head_1" ><a class="theme-login" href="#">美味佳瑶</a></span>
+		    <span class="head_2"><a href="../main.html">注销</a></span>	
+		    <span class="head_2"><a href="shop.html"><img src="../imgs/cart.png" style="">购物车</a></span>
+			<span class="head_3">|</span>
+			<span class="head_2"><a href="myorder.html">我的订单</a></span>
+			<span class="head_3">|</span>
+			<span class="head_2"><a href="geren.html">我的叮咚</a></span>
+			<span class="head_3">|</span>
+			<span class="head_2"><a href="#">客户服务</a></span>
+			<span class="head_3">|</span> 
+			<span class="head_1"><a class="theme-login" href="user.html">返回首页</a></span> 
+		</div>
+	    <div class="logo">
+			<div>
+		        <img src="../imgs/logo_2.png" style="height:80px;float:left;">
+	            <img src="../imgs/com_3.png"style="height:70px;float:left;">
+	        </div>
+	        <div>
+		        <input class="search_1" type="text" value="百科全书" onfocus="if (this.value=='百科全书')this.value=''" onblur="if (this.value=='')this.value='百科全书'">
+		        <input class="search_2" type="submit" value="搜  索">
+		        <span class="search_3"><a href="#">高级搜索</a></span>
+	        </div>
+	    </div>
+	</div>
+  </header>
+	
+ <div class="space"></div>    
+ <table id="cartTable">
+  <thead>
+	<tr>
+	  <th><label><input class="check-all check" type="checkbox"/>&nbsp;全选</label></th>
+	  <th>商品名称</th>
+	  <th>单价</th>
+	  <th>数量</th>
+	  <th>小计</th>
+	  <th>操作</th>
+	</tr>
+  </thead>
+  <tbody>
+	<tr>
+	  <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+	  <td class="goods"><img src="../imgs/nb_1.jpg" alt=""/><span>了不起的爸爸系列</span></td>
+	  <td class="price">59.00</td>
+	  <td class="count">
+		<span class="reduce"></span>
+		<input class="count-input" type="text" value="1"/>
+		<span class="add">+</span></td>
+	  <td class="subtotal">59.00</td>
+	  <td class="operation"><span class="delete">删除</span></td>
+	</tr>
+	<tr>
+	  <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+	  <td class="goods"><img src="../imgs/nb_2.jpg" alt=""/><span>故事的结局早已写在开头</span></td>
+	  <td class="price">32.00</td>
+	  <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+	  <td class="subtotal">32.00</td>
+	  <td class="operation"><span class="delete">删除</span></td>
+	</tr>
+	<tr>
+	  <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+	  <td class="goods"><img src="../imgs/nb_3.jpg" alt=""/><span>战败之夏</span></td>
+	  <td class="price">25.80</td>
+	  <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+	  <td class="subtotal">25.80</td>
+	  <td class="operation"><span class="delete">删除</span></td>
+	</tr>
+	<tr>
+	  <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+	  <td class="goods"><img src="../imgs/nb_4.jpg" alt=""/><span>先成为自己的英雄</span></td>
+	  <td class="price">21.10</td>
+	  <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+	  <td class="subtotal">21.10</td>
+	  <td class="operation"><span class="delete">删除</span></td>
+	</tr>
+  </tbody>
+</table>
+
+<div class="foot" id="foot">
+  <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+  <a class="fl delete" id="deleteAll" href="javascript:;">批量删除</a>
+  <div class="fr closing"><a href="order.html" >结 算</a></div>
+  <div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+  <div class="fr selected" id="selected">已选商品
+	<span id="selectedTotal">0</span>件
+	<span class="arrow up">︽</span>
+	<span class="arrow down">︾</span>
+  </div>
+  <div class="selected-view">
+	<div id="selectedViewList" class="clearfix">
+	  <div><img src="images/1.jpg"><span>取消选择</span></div>
+	</div>
+	<span class="arrow">◆<span>◆</span></span>
+  </div>
+</div> 
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+	font-family: 微软雅黑;
+}
+.gexin{
+	width: 88%;
+
+}
+h4{
+	font-weight: bold;
+	font-size: 30px;
+	color: #FF2832;
+}
+table {
+	text-align: center;
+	width: 100%;
+}
+table tr td{
+	height: 60px;
+	width: 50%;
+	
+}
+.biao3{
+	width: 200px;
+	height: 30px;
+	background-color: #FFFFFF;
+}
+#yhm{
+	border: none;
+}
+.biao4{
+	width: 60px;
+	height: 30px;
+	background-color:#FF2B09;
+	border:0;
+	border-radius: 5px;
+	color: #FFFFFF;
+	cursor: pointer; 
+}
